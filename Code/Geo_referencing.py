@@ -265,6 +265,8 @@ class PointTool1(QgsMapToolEmitPoint):
 
     def canvasReleaseEvent(self, mouseEvent):
         if (self.count1 == 8):
+            '''this value is given as 8 because the number of points to be considered are 8 if want to select 
+            different number input has to be changed'''
             return
         qgsPoint = self.toMapCoordinates(mouseEvent.pos())
         print('x:', qgsPoint.x(), ', y:', qgsPoint.y())
