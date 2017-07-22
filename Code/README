@@ -1,0 +1,10 @@
+Execution starts with  Georeference file
+***The textbox module is not properly written where one of the input is given manually. 
+
+So basic idea is that when georefernce module is executed u get 2 buttons so
+1)inputs based on mouse_click.
+2)based on user manual input.
+
+so when we click on mouse_click so the shapefile module gets opened and it gets executed.
+and when we click on manual inputs textbox module gets executed.
+But the textbox module has not been properly written inorder to execute that properly textbox module has to be made correct.

@@ -1,0 +1,24 @@
+MOM(Minutes of Meeting)
+
+*VENUE: Lab for Spatial Informatics
+*DATE: 27th June, 2017.
+*TIME: 11AM - 2PM
+
+
+ACTIVITIES
+
+we did a complete discussion with Dr K S RAJAN.
+
+During the discussion he completely explained me about the affine transformations and the entire procedure for finding out the affine transforms
+Steps:
+
+1)find the coordinates of the shape file lets say Mx,My which is a list which consists of all the points and they have to be referenced to Mrx,Mry which is also a list containing all the coordinates.(Mrx[i]=aMx[i]+bMy[i]+c)
+
+2)so Mx has to be transformed to Mrx and My to Mry so using the 6 points at  a time we could find all '8C6' a,b,c,d,e,f values.(but considering 3 points at a time we could find all a,b,c,d,e,f values which gives '8C3' a to f values).
+
+3)now after finding all a to f values we find the best a to f value based on the error that they produce by calculating the average rms error for each a to f combination.
+
+4)now considering the best a to f we find the find new Mrx,Mry values and find out the error by subtracting with old values so we that the large error points could be eliminated.
+
+5)Then a small gui could be created to display the values produced during the computation.
+

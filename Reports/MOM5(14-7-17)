@@ -1,0 +1,2 @@
+After a small discussion with sir i understood what has to be done with the shapefile and then i was able to generate a new shapefile.
+Sir even asked me store all the error points i stored them in a list and he also aksed me actually create a button such that if the genetared shapefile is not proper so we can actually go and repeat the entire process for taking better inputs for transformation.(but i could not actually create such a button)
